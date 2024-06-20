@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="Css/all.min.css">
+  <link rel="stylesheet" href="Css/bootstrap.min.css">
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+ >
+    <nav class="navbar my-nav navbar-expand-lg  p-3 ">
+      <div class="container">
+
+        <img src="Images/logo.png" class="logo" alt="">
+        <div class="logo-caption pt-3 ms-2">
+          <h5>Weather
+
+          </h5>
+          <p class=" font-monospace">tagline goes here</p>
+
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="text-white fa-solid fa-bars"></i>
+      
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav text-center ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link home mx-3 my-3" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  mx-3 my-3 " href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  mx-3 my-3 " href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  mx-3 my-3 " href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  mx-3 my-3 " href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <div class="main  d-grid ">
+    <div class="container mt-5">
+      <div class="find-location position-relative">
+        <input type="text" class="form-control" placeholder="Find your location" id="searchInput">
+
+        <input type="button" class="btn1" value="Find" id="searchBtn">
+
+        <p class=" alert alert-danger d-none">Please enter the city name correctly</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+
+      <div class="row " id="rowData">
+
+      </div>
+    </div>
+  </div>
+
+   <div class="footer container d-flex  mt-5">
+    <div class="find-location w-50 position-relative">
+      <input type="text" class="form-control" placeholder="Enter your email to subscribe..">
+      <input type="button" class="btn1" value="Subscribe" id="submit">
+    </div>
+    <div class="social-links d-flex m-auto gap-2">
+      <div class="icon rounded-circle d-grid"><i class="m-auto fa-brands fa-facebook-f fs-5"></i></div>
+      <div class="icon rounded-circle d-grid"><i class="m-auto fa-brands fa-twitter fs-5"></i></div>
+      <div class="icon rounded-circle d-grid"><i class="m-auto fa-brands fa-google-plus-g fs-5"></i></div>
+      <div class="icon rounded-circle d-grid"><i class="m-auto fa-brands fa-pinterest-p fs-5"></i></div>
+    </div>
+
+  </div>
+
+  <div class="copyright container mt-4 text-white pb-5">
+    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+  </div> 
+
+  <script src="Js/bootstrap.bundle.min.js"></script>
+  <script src="Js/index.js"></script>
+</body>
+
+</html>
